@@ -1,4 +1,2 @@
 #!/bin/bash
-for item in *; do
-    echo -n "$item "
-done
+(for item in *; do echo -n "$item "; done; echo)
